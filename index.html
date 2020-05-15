@@ -19,20 +19,30 @@
       </div>
       <!--Nav bar-->
       <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-text navigation">
-        <a class="navbar-brand" href="Home">Home</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon left .navbar.nav navbar.collaspe">Scrum</span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-             <div class="navbar-nav">
-               <a class="Home" href="index.html">Home <span class="sr-only">(current)</span></a>
-               <a class="scrum" href="Scrum.html">Scrum</a>
-               <link href="scrum.html">
-               <a class="nav-item nav-link" href="sprint.html">sprint</a>
-               </div>
-           </div>
-           </nav></div>
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h5 class="text-white h4">Home</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="scrum.html">Scrum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Kanban.html" tabindex="-1" aria-disabled="true">Kanban</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>  
+        </div>
            </nav>
            <!---Card---->
         <!---Column-->
